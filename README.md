@@ -1,1 +1,27 @@
 # mac-big-sur-dynamic
+Dynamic wallpaper that changes throughout the day.
+
+### Installation
+Change directory to your Pictures folder.
+```sh
+$ cd Pictures
+```
+
+Create a Wallpapers directory if it doesn't exist already.
+```sh
+$ mkdir Wallpapers
+```
+
+Clone this repo into "Wallpapers" (/home/user/Pictures/wallpapers).
+```sh
+$ cd Wallpapers
+$ git clone https://github.com/jarednthomas/mac-big-sur-dynamic
+```
+
+Fix paths to images in xml file by replacing my user paths (/home/jared/) with your username. Ex; jared to nathan:
+```sh
+$ sed -i 's/jared/nathan/g' big_sur_dynamic.xml
+```
+
+Set background to xml file.
+GDM Steps: Tweaks > Appearance > Background > Select XML File
