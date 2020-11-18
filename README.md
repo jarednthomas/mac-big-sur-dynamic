@@ -12,7 +12,7 @@ Create a Wallpapers directory if it doesn't exist already.
 $ mkdir Wallpapers
 ```
 
-Clone this repo into "Wallpapers" (/home/user/Pictures/wallpapers).
+Clone this repo into "Wallpapers" (/home/user/Pictures/Wallpapers).
 ```sh
 $ cd Wallpapers
 $ git clone https://github.com/jarednthomas/mac-big-sur-dynamic
