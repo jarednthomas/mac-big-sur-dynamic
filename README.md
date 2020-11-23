@@ -18,7 +18,7 @@ cd Wallpapers
 git clone https://github.com/jarednthomas/mac-big-sur-dynamic
 ```
 
-Fix paths to images in xml file by replacing my user paths (/home/jared/) with your username. Ex; jared to nathan:
+Fix paths to images in xml file by replacing my user paths (/home/jared/) with your username. 
 ```sh
 cd mac-big-sur-dynamic
 whoami
