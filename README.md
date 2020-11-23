@@ -1,5 +1,4 @@
 # mac-big-sur-dynamic
-Dynamic wallpaper that changes throughout the day.
 
 ### Installation
 Change directory to your Pictures folder.
@@ -18,7 +17,7 @@ cd Wallpapers
 git clone https://github.com/jarednthomas/mac-big-sur-dynamic
 ```
 
-Fix paths to images in xml file by replacing my user paths (/home/jared/) with your username. 
+Fix paths to images in xml file by replacing my user paths (/home/jared/) with your username.
 ```sh
 cd mac-big-sur-dynamic
 whoami
