@@ -20,7 +20,9 @@ $ git clone https://github.com/jarednthomas/mac-big-sur-dynamic
 
 Fix paths to images in xml file by replacing my user paths (/home/jared/) with your username. Ex; jared to nathan:
 ```sh
-$ sed -i 's/jared/nathan/g' big_sur_dynamic.xml
+$ cd mac-big-sur-dynamic
+$ whoami
+$ sed -i 's/jared/your_username/g' big_sur_dynamic.xml
 ```
 
 Set background to xml file.
